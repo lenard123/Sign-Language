@@ -86,7 +86,7 @@ def get_hand_hist():
 
 def recognize():
 	global prediction
-	cam = cv2.VideoCapture(1)
+	cam = cv2.VideoCapture(0)
 	if cam.read()[0] == False:
 		cam = cv2.VideoCapture(0)
 	hist = get_hand_hist()
