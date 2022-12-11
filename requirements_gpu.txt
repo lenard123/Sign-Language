@@ -1,8 +1,9 @@
-h5py
-numpy
-scikit-learn
+h5py==2.10.0
+numpy==1.14.5
+scikit-learn==0.24.2
 sklearn
-tensorflow-gpu
-keras
-opencv-python
-pyttsx3
+tensorflow-gpu==1.5
+keras==2.2.4
+opencv-python==4.6.0.66
+pyttsx3==2.90
+pydot
