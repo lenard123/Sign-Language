@@ -7,3 +7,4 @@ keras==2.2.4
 opencv-python==4.6.0.66
 pyttsx3==2.90
 pydot
+matplotlib
